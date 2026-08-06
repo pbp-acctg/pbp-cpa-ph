@@ -1,6 +1,12 @@
 // Year in footer
 document.getElementById('year').textContent = new Date().getFullYear();
 
+// Header shadow once the page has scrolled
+const siteHeader = document.querySelector('.site-header');
+const onScroll = () => siteHeader.classList.toggle('is-scrolled', window.scrollY > 8);
+onScroll();
+window.addEventListener('scroll', onScroll, { passive: true });
+
 // Mobile nav toggle
 const navToggle = document.getElementById('navToggle');
 const mainNav = document.getElementById('mainNav');
