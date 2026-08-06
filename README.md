@@ -1,4 +1,4 @@
-# Cabrera & Reyes CPAs — Website
+# PBP CPA Accounting and Tax Services — Website
 
 A static, single-page website for a Philippine accounting & tax services firm. Plain HTML/CSS/JS — no build step, no framework, so it runs anywhere and is easy to host for free on GitHub Pages.
 
@@ -16,7 +16,7 @@ script.js    — mobile nav, service accordion, scroll animations, form demo
 
 Everything here is placeholder content. Search `index.html` for and update:
 
-- Firm name ("Cabrera & Reyes CPAs") and initials in the logo mark
+- Firm name (PBP CPA Accounting and Tax Services") and initials in the logo mark
 - Email, phone, and office address in the **Contact** section
 - Stats in the **trust strip** and **About** section (years, client count, etc.)
 - Service descriptions, if your scope differs from what's listed
