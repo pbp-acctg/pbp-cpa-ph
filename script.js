@@ -40,7 +40,7 @@ document.querySelectorAll('.ledger-row').forEach(row => {
 
 // Scroll reveal
 const revealTargets = document.querySelectorAll(
-  '.ledger-row, .process-list li, .about-row, .contact-row, .trust-item'
+  '.ledger-row, .timeline-item, .about-row, .contact-row, .trust-item'
 );
 revealTargets.forEach(el => el.classList.add('reveal'));
 
